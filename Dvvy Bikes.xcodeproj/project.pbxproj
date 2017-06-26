@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7394AE861F0159E5000C4F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394AE851F0159E5000C4F41 /* AppDelegate.swift */; };
+		7394AE881F0159E5000C4F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394AE871F0159E5000C4F41 /* ViewController.swift */; };
+		7394AE8B1F0159E5000C4F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7394AE891F0159E5000C4F41 /* Main.storyboard */; };
+		7394AE8D1F0159E5000C4F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7394AE8C1F0159E5000C4F41 /* Assets.xcassets */; };
+		7394AE901F0159E5000C4F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7394AE8E1F0159E5000C4F41 /* LaunchScreen.storyboard */; };
+		7394AE9B1F0159E5000C4F41 /* Dvvy_BikesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394AE9A1F0159E5000C4F41 /* Dvvy_BikesTests.swift */; };
+		7394AEA61F0159E5000C4F41 /* Dvvy_BikesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394AEA51F0159E5000C4F41 /* Dvvy_BikesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7394AE971F0159E5000C4F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7394AE7A1F0159E5000C4F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7394AE811F0159E5000C4F41;
+			remoteInfo = "Dvvy Bikes";
+		};
+		7394AEA21F0159E5000C4F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7394AE7A1F0159E5000C4F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7394AE811F0159E5000C4F41;
+			remoteInfo = "Dvvy Bikes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7394AE821F0159E5000C4F41 /* Dvvy Bikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dvvy Bikes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7394AE851F0159E5000C4F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7394AE871F0159E5000C4F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7394AE8A1F0159E5000C4F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7394AE8C1F0159E5000C4F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7394AE8F1F0159E5000C4F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7394AE911F0159E5000C4F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7394AE961F0159E5000C4F41 /* Dvvy BikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dvvy BikesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7394AE9A1F0159E5000C4F41 /* Dvvy_BikesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dvvy_BikesTests.swift; sourceTree = "<group>"; };
+		7394AE9C1F0159E5000C4F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7394AEA11F0159E5000C4F41 /* Dvvy BikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dvvy BikesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7394AEA51F0159E5000C4F41 /* Dvvy_BikesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dvvy_BikesUITests.swift; sourceTree = "<group>"; };
+		7394AEA71F0159E5000C4F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7394AE7F1F0159E5000C4F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394AE931F0159E5000C4F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394AE9E1F0159E5000C4F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7394AE791F0159E5000C4F41 = {
+			isa = PBXGroup;
+			children = (
+				7394AE841F0159E5000C4F41 /* Dvvy Bikes */,
+				7394AE991F0159E5000C4F41 /* Dvvy BikesTests */,
+				7394AEA41F0159E5000C4F41 /* Dvvy BikesUITests */,
+				7394AE831F0159E5000C4F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7394AE831F0159E5000C4F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7394AE821F0159E5000C4F41 /* Dvvy Bikes.app */,
+				7394AE961F0159E5000C4F41 /* Dvvy BikesTests.xctest */,
+				7394AEA11F0159E5000C4F41 /* Dvvy BikesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7394AE841F0159E5000C4F41 /* Dvvy Bikes */ = {
+			isa = PBXGroup;
+			children = (
+				7394AE851F0159E5000C4F41 /* AppDelegate.swift */,
+				7394AE871F0159E5000C4F41 /* ViewController.swift */,
+				7394AE891F0159E5000C4F41 /* Main.storyboard */,
+				7394AE8C1F0159E5000C4F41 /* Assets.xcassets */,
+				7394AE8E1F0159E5000C4F41 /* LaunchScreen.storyboard */,
+				7394AE911F0159E5000C4F41 /* Info.plist */,
+			);
+			path = "Dvvy Bikes";
+			sourceTree = "<group>";
+		};
+		7394AE991F0159E5000C4F41 /* Dvvy BikesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7394AE9A1F0159E5000C4F41 /* Dvvy_BikesTests.swift */,
+				7394AE9C1F0159E5000C4F41 /* Info.plist */,
+			);
+			path = "Dvvy BikesTests";
+			sourceTree = "<group>";
+		};
+		7394AEA41F0159E5000C4F41 /* Dvvy BikesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7394AEA51F0159E5000C4F41 /* Dvvy_BikesUITests.swift */,
+				7394AEA71F0159E5000C4F41 /* Info.plist */,
+			);
+			path = "Dvvy BikesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7394AE811F0159E5000C4F41 /* Dvvy Bikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7394AEAA1F0159E5000C4F41 /* Build configuration list for PBXNativeTarget "Dvvy Bikes" */;
+			buildPhases = (
+				7394AE7E1F0159E5000C4F41 /* Sources */,
+				7394AE7F1F0159E5000C4F41 /* Frameworks */,
+				7394AE801F0159E5000C4F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dvvy Bikes";
+			productName = "Dvvy Bikes";
+			productReference = 7394AE821F0159E5000C4F41 /* Dvvy Bikes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7394AE951F0159E5000C4F41 /* Dvvy BikesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7394AEAD1F0159E5000C4F41 /* Build configuration list for PBXNativeTarget "Dvvy BikesTests" */;
+			buildPhases = (
+				7394AE921F0159E5000C4F41 /* Sources */,
+				7394AE931F0159E5000C4F41 /* Frameworks */,
+				7394AE941F0159E5000C4F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7394AE981F0159E5000C4F41 /* PBXTargetDependency */,
+			);
+			name = "Dvvy BikesTests";
+			productName = "Dvvy BikesTests";
+			productReference = 7394AE961F0159E5000C4F41 /* Dvvy BikesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7394AEA01F0159E5000C4F41 /* Dvvy BikesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7394AEB01F0159E5000C4F41 /* Build configuration list for PBXNativeTarget "Dvvy BikesUITests" */;
+			buildPhases = (
+				7394AE9D1F0159E5000C4F41 /* Sources */,
+				7394AE9E1F0159E5000C4F41 /* Frameworks */,
+				7394AE9F1F0159E5000C4F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7394AEA31F0159E5000C4F41 /* PBXTargetDependency */,
+			);
+			name = "Dvvy BikesUITests";
+			productName = "Dvvy BikesUITests";
+			productReference = 7394AEA11F0159E5000C4F41 /* Dvvy BikesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7394AE7A1F0159E5000C4F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "The Dawg";
+				TargetAttributes = {
+					7394AE811F0159E5000C4F41 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					7394AE951F0159E5000C4F41 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7394AE811F0159E5000C4F41;
+					};
+					7394AEA01F0159E5000C4F41 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7394AE811F0159E5000C4F41;
+					};
+				};
+			};
+			buildConfigurationList = 7394AE7D1F0159E5000C4F41 /* Build configuration list for PBXProject "Dvvy Bikes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7394AE791F0159E5000C4F41;
+			productRefGroup = 7394AE831F0159E5000C4F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7394AE811F0159E5000C4F41 /* Dvvy Bikes */,
+				7394AE951F0159E5000C4F41 /* Dvvy BikesTests */,
+				7394AEA01F0159E5000C4F41 /* Dvvy BikesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7394AE801F0159E5000C4F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7394AE901F0159E5000C4F41 /* LaunchScreen.storyboard in Resources */,
+				7394AE8D1F0159E5000C4F41 /* Assets.xcassets in Resources */,
+				7394AE8B1F0159E5000C4F41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394AE941F0159E5000C4F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394AE9F1F0159E5000C4F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7394AE7E1F0159E5000C4F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7394AE881F0159E5000C4F41 /* ViewController.swift in Sources */,
+				7394AE861F0159E5000C4F41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394AE921F0159E5000C4F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7394AE9B1F0159E5000C4F41 /* Dvvy_BikesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7394AE9D1F0159E5000C4F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7394AEA61F0159E5000C4F41 /* Dvvy_BikesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7394AE981F0159E5000C4F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7394AE811F0159E5000C4F41 /* Dvvy Bikes */;
+			targetProxy = 7394AE971F0159E5000C4F41 /* PBXContainerItemProxy */;
+		};
+		7394AEA31F0159E5000C4F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7394AE811F0159E5000C4F41 /* Dvvy Bikes */;
+			targetProxy = 7394AEA21F0159E5000C4F41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7394AE891F0159E5000C4F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7394AE8A1F0159E5000C4F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7394AE8E1F0159E5000C4F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7394AE8F1F0159E5000C4F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7394AEA81F0159E5000C4F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7394AEA91F0159E5000C4F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7394AEAB1F0159E5000C4F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dvvy Bikes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Dawg-Inc..Dvvy-Bikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7394AEAC1F0159E5000C4F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dvvy Bikes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Dawg-Inc..Dvvy-Bikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7394AEAE1F0159E5000C4F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dvvy BikesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Dawg-Inc..Dvvy-BikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dvvy Bikes.app/Dvvy Bikes";
+			};
+			name = Debug;
+		};
+		7394AEAF1F0159E5000C4F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dvvy BikesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Dawg-Inc..Dvvy-BikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dvvy Bikes.app/Dvvy Bikes";
+			};
+			name = Release;
+		};
+		7394AEB11F0159E5000C4F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dvvy BikesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Dawg-Inc..Dvvy-BikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dvvy Bikes";
+			};
+			name = Debug;
+		};
+		7394AEB21F0159E5000C4F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dvvy BikesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Dawg-Inc..Dvvy-BikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dvvy Bikes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7394AE7D1F0159E5000C4F41 /* Build configuration list for PBXProject "Dvvy Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7394AEA81F0159E5000C4F41 /* Debug */,
+				7394AEA91F0159E5000C4F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7394AEAA1F0159E5000C4F41 /* Build configuration list for PBXNativeTarget "Dvvy Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7394AEAB1F0159E5000C4F41 /* Debug */,
+				7394AEAC1F0159E5000C4F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7394AEAD1F0159E5000C4F41 /* Build configuration list for PBXNativeTarget "Dvvy BikesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7394AEAE1F0159E5000C4F41 /* Debug */,
+				7394AEAF1F0159E5000C4F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7394AEB01F0159E5000C4F41 /* Build configuration list for PBXNativeTarget "Dvvy BikesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7394AEB11F0159E5000C4F41 /* Debug */,
+				7394AEB21F0159E5000C4F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7394AE7A1F0159E5000C4F41 /* Project object */;
+}
